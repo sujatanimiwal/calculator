@@ -1,5 +1,8 @@
 const hello = () => {
-    return
-}
+  return;
+};
+const multiply = (a, b) => {
+  return a * b;
+};
 
-hello()
+hello();
