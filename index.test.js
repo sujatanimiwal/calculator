@@ -1,6 +1,6 @@
 const multiplyTest = require('./src/methods/multiply');
-const { add } = require('.');
-const { multiply} = require('.');
+const  add  = require('./src/methods/add');
+const  multiply = require('./src/methods/multiply');
 
 test('that is true', () => {
     expect(true).toBe(true);
