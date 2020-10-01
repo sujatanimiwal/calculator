@@ -1,5 +1,6 @@
 const multiplyTest = require('./src/methods/multiply');
 const { add } = require('.');
+const { add,multiply} = require('.');
 
 test('that is true', () => {
     expect(true).toBe(true);
@@ -19,5 +20,14 @@ describe('Add function', () => {
 
 	it('should return correct result when both of args are negative', () => {
 		expect(add(-1,-1)).toBe(-2);
+	});
+});
+
+
+describe('Multiply function', () => {
+	it('should return correct result', () => {
+		expect(multiply(9, 2)).toBe(18);
+		expect(multiply(10, 10)).toBe(100);
+		expect(multiply(-3, 20)).toBe(-60);
 	});
 });
