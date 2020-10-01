@@ -16,6 +16,10 @@ describe('Add function', () => {
 	it('should return correct result when both of args are negative', () => {
 		expect(add(-1,-1)).toBe(-2);
 	});
+
+	it('should return correct result when both of args are negative', () => {
+		expect(add(-1,-3)).toBe(-4);
+	});
 });
 
 test("multiply two numbers", () => {
