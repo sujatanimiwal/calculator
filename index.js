@@ -2,4 +2,10 @@ const hello = () => {
     return
 }
 
-hello()
+const add = (a, b) => {
+
+}
+
+module.exports = {
+	add
+}
