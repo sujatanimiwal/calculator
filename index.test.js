@@ -1,12 +1,14 @@
-const multiplyTest = require('./src/methods/multiply');
-const {add, multiply, divide} = require('.');
+const multiply = require('./src/methods/multiply');
+const add = require('./src/methods/add');
+const divide = require('./src/methods/divide');
+const subtract = require('./src/methods/subtract');
 
 test('that is true', () => {
     expect(true).toBe(true);
 });
 
 test('9 multiplied by 2 equals 18', () => {
-    expect(multiplyTest(2, 9)).toBe(18);
+    expect(multiply(2, 9)).toBe(18);
 })
 
 describe('Add function', () => {
