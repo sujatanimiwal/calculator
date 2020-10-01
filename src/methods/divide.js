@@ -1,8 +1,10 @@
-function multiply(a, b) {
+const divide = (a, b) => {
     if (typeof a === "string" || typeof b === "string") {
         return "TypeError: Please Provide Numbers";
     }
-    return a * b
-}
-module.exports = multiply;
+    if (b === 0)
+        return undefined
+    return a / b;
+};
+module.exports = divide;
 
