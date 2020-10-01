@@ -17,3 +17,7 @@ describe('Add function', () => {
 		expect(add(-1,-1)).toBe(-2);
 	});
 });
+
+test("multiply two numbers", () => {
+  expect(3 * 2).toBe(6);
+});
