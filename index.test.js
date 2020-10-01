@@ -1,4 +1,4 @@
-const { add } = require('.');
+const { add,multiply} = require('.');
 
 test('that is true', () => {
     expect(true).toBe(true);
@@ -18,6 +18,10 @@ describe('Add function', () => {
 	});
 });
 
-test("multiply two numbers", () => {
-  expect(3 * 2).toBe(6);
+describe('Multiply function', () => {
+	it('should return correct result', () => {
+		expect(multiply(9, 2)).toBe(18);
+		expect(multiply(10, 10)).toBe(100);
+		expect(multiply(-3, 20)).toBe(-60);
+	});
 });
