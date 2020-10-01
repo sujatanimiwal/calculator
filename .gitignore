@@ -115,5 +115,10 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+<<<<<<< HEAD
+
+.idea/
+=======
 # node_modules
 node_modules/
+>>>>>>> a17795cffb4bdaeae11fd8c8e1c929f1312623dd
