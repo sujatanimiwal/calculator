@@ -6,12 +6,14 @@ const multiply = (a, b) => {
 };
 
 const add = (a, b) => {
-  return a+b;
+
+	return a + b;
+
 }
 
 hello();
 
 module.exports = {
 	add,
-  multiply
+  	multiply,
 }
